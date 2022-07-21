@@ -2,7 +2,6 @@
     <nav id="navbar" class="navbar navbar-expand-lg">
   <div class="container-fluid">
     <img id="logo" src="../assets/logo.png" alt="">
-    <a class="navbar-brand" href="#">MIKHAIL THOMAS</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <img id="nav-button" class="" src="../assets/navbar-button.jpg" alt="">
     </button>

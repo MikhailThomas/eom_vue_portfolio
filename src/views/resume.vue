@@ -5,7 +5,7 @@
      <div id="education">
   <div class='card'>
     <div class='front'>
-      <img src='' class='contact' />
+      <img src='../assets/logo.png' class='contact' />
       <span class='name'>Plumstead High</span>
       <hr>
       <span class='job'> - Student - </span>
@@ -19,7 +19,7 @@
   <!-- healing -->
   <div class='card'>
     <div class='front'>
-      <img src='' class='contact' />
+      <img src='../assets/logo.png' class='contact' />
       <span class='name'>Healing Hands Academy</span>
       <hr>
       <span class='job'> - Student - </span>
@@ -32,7 +32,7 @@
   <!-- LCA -->
   <div class='card'>
     <div class='front'>
-      <img src='' class='contact' />
+      <img src='../assets/logo.png' class='contact' />
       <span class='name'>Life Choices Academy</span>
       <hr>
       <span class='job'> - Student - </span>
@@ -45,7 +45,7 @@
   <!-- Sunlands -->
   <div class='card'>
     <div class='front'>
-      <img src='' class='contact' />
+      <img src='../assets/logo.png' class='contact' />
       <span class='name'>Sunlands Primary</span>
       <hr>
       <span class='job'> - Student - </span>
@@ -58,7 +58,7 @@
   <!-- Estrategie -->
   <div class='card'>
     <div class='front'>
-      <img src='' class='contact' />
+      <img src='../assets/logo.png' class='contact' />
       <span class='name'>Estrategia</span>
       <hr>
       <span class='job'> - Student - </span>
@@ -71,7 +71,7 @@
   <!-- upholstery -->
   <div class='card'>
     <div class='front'>
-      <img src='' class='contact' />
+      <img src='../assets/logo.png' class='contact' />
       <span class='name'>Johannes Curtaining</span>
       <hr>
       <span class='job'> - Worker - </span>
@@ -88,7 +88,7 @@
     <!-- Johannes -->
     <div class='card'>
     <div class='front'>
-      <img src='' class='contact' />
+      <img src='../assets/logo.png' class='contact' />
       <span class='name'>Coding</span>
       <hr>
       <span class='job'> - Aspiring Web Developer - </span>
@@ -101,7 +101,7 @@
     <!-- Massage -->
     <div class='card'>
     <div class='front'>
-      <img src='' class='contact' />
+      <img src='../assets/logo.png' class='contact' />
       <span class='name'>Massage Therapy</span>
       <hr>
       <span class='job'> - Free Lancer - </span>
@@ -114,7 +114,7 @@
     <!-- coach -->
     <div class='card'>
     <div class='front'>
-      <img src='' class='contact' />
+      <img src='../assets/logo.png' class='contact' />
       <span class='name'>Coaching</span>
       <hr>
       <span class='job'> - Junior's Coach - </span>
@@ -127,7 +127,7 @@
     <!-- LCA -->
     <div class='card'>
     <div class='front'>
-      <img src='' class='contact' />
+      <img src='../assets/logo.png' class='contact' />
       <span class='name'>Upholstery</span>
       <hr>
       <span class='job'> - Junior Upholstery - </span>
@@ -140,7 +140,7 @@
     <!-- Cliffe Dekker Hofmeyr -->
     <div class='card'>
     <div class='front'>
-      <img src='' class='contact' />
+      <img src='../assets/logo.png' class='contact' />
       <span class='name'>Cliffe Dekker Hofmeyr</span>
       <hr>
       <span class='job'> - Job Shadow - </span>
@@ -153,7 +153,7 @@
     <!-- Job Shadow -->
     <div class='card'>
     <div class='front'>
-      <img src='' class='contact' />
+      <img src='../assets/logo.png' class='contact' />
       <span class='name'>Eve Travel</span>
       <hr>
       <span class='job'> - Job Shadow - </span>
@@ -211,16 +211,21 @@
 }
 .front {
     transform: rotateY(0deg);
-    background: linear-gradient(to bottom right, rgb(78, 78, 78), lightblue);
+    background: linear-gradient(to bottom right, rgb(0, 0, 0), lightblue);
     text-align: center;
     padding: 30px;
 }
 .back {
-    background: linear-gradient(to top right, lightblue, rgb(78, 78, 78) );
+    background: linear-gradient(to bottom right, rgb(78, 78, 78), lightblue);
     -webkit-transform: rotateY(180deg);
             transform: rotateY(180deg);
     padding: 40px 15px;
     color: #fff;
+    background-image:url('../assets/logo.png') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .card:hover .front {
     -webkit-transform: rotateY(-180deg);
@@ -234,7 +239,7 @@
 .front .contact {
     height: 120px;
     width: 120px;
-    border: 5px solid #B2DBBF;
+    border: 5px solid gold;
     border-radius: 50%;
     display: inline-block;
     margin-bottom: 10px;
