@@ -152,7 +152,7 @@
       	<a href="#">
         	<span class="caption">
         		<h2>Cameron Stemmet</h2>
-            <p class="desc">I am a energetic, happy and loving massage therapist who has taken part in the Healing Hands Academy, holistic massage course. I am determined to perfect my spiritual, physical and mental healing capabilities through touch communication. </p>
+            <p class="desc">Mikhail Thomas has been an outstanding person let alone aspiring web developer. He works hard and he would be a great asset to anyone. he has a great personality as well as great teamwork ability. He’s shown great prowess in leadership roles and never runs away from a challenge. I recommend him for your company.</p>
         	</span>
           <img src="https://assets.codepen.io/2856/batman-detective.jpg">
         </a>
@@ -162,7 +162,7 @@
 				<a href="#">
         	<span class="caption">
         		<h2>Joshe Theys</h2>
-            <p class="desc">Mikhail Eaon Thomas is an aspiring web developer who has been apart of the Life Choices coding internship. This is where he found his passion for web development and design. "My goal in life is to become the best at everything i do, through my hard work, determination and never settling for less than the best".</p>
+            <p class="desc">Mikhail is a dedicated, positive young man. Through my experience working with him as a colleague at Life Choices Academy, I have witnessed his perseverance in the face of adversity as he never gives up until he finds the solution to various coding issues.  He is dedicated to his tasks as he exhibits excellent time-management skills by always completing them on time and making sure that they are up to standard. He is a natural leader and a great communicator during group work. He will be an excellent addiction to your team.</p>
         	</span>
         	<img src="https://assets.codepen.io/2856/daredevil.jpg">
         	</a>
@@ -171,7 +171,7 @@
         <a href="#">
         	<span class="caption">
         		<h2>Amanda Gudlwa</h2>
-            <p class="desc">I am a practitioner and a coach of Brazilian Jiu Jitsu.BJJ is a martial art focusing on the skill of taking an opponent to the ground, controlling the opponent, and using a number of techniques to force them into submission. This is the same mindset i use when taking on challenges using skill, knowledge and control to overcome them.</p>
+            <p class="desc">I have known Mikhail Thomas for a little over a month now. He is a pleasure to be around even outside the class room. He can hold conversation on different topics. He knows how to move from not knowing something to knowing it, because he understands his learning style. When working on the team he collaborates well, and engages well. He would be an assert on any team.</p>
         	</span>
       	<img src="https://assets.codepen.io/2856/glc_teamwork.jpg">
         </a>  
@@ -190,7 +190,7 @@
 				<a href="#">
         	<span class="caption">
         		<h2>Joel</h2>
-            <p class="desc">Mikhail Eaon Thomas is an aspiring web developer who has been apart of the Life Choices coding internship. This is where he found his passion for web development and design. "My goal in life is to become the best at everything i do, through my hard work, determination and never settling for less than the best".</p>
+            <p class="desc">I have no hesitancy in writing a letter of recommendation for Mikhail. Joel Mukanya -Coding Lecturer.</p>
         	</span>
         	<img src="https://assets.codepen.io/2856/daredevil.jpg">
         	</a>
@@ -199,7 +199,7 @@
         <a href="#">
         	<span class="caption">
         		<h2>Jason</h2>
-            <p class="desc">I am a practitioner and a coach of Brazilian Jiu Jitsu.BJJ is a martial art focusing on the skill of taking an opponent to the ground, controlling the opponent, and using a number of techniques to force them into submission. This is the same mindset i use when taking on challenges using skill, knowledge and control to overcome them.</p>
+            <p class="desc"></p>
         	</span>
       	<img src="https://assets.codepen.io/2856/glc_teamwork.jpg">
         </a>  

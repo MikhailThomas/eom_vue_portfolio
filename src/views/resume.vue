@@ -11,8 +11,9 @@
       <span class='job'> - Student - </span>
     </div>
     <div class='back'>
-      <span>Skills:</span>
-      <p>HTML, CSS, Javascript. UX/UI designer</p>
+      <span>Subjects:</span>
+      <p>English, Afrikaans, Maths Literacy, History
+      Geography, Business Studies, Life Orientation</p>
     </div>
   </div>
   <!-- healing -->
@@ -24,8 +25,8 @@
       <span class='job'> - Student - </span>
     </div>
     <div class='back'>
-      <span>Skills:</span>
-      <p>HTML, CSS, Javascript. UX/UI designer</p>
+      <span>Skill:</span>
+      <p>Holistic Massage and nutrition</p>
     </div>
   </div>
   <!-- LCA -->
@@ -38,7 +39,7 @@
     </div>
     <div class='back'>
       <span>Skills:</span>
-      <p>HTML, CSS, Javascript. UX/UI designer</p>
+      <p>HTML, CSS, Javascript.</p>
     </div>
   </div>
   <!-- Sunlands -->
@@ -50,8 +51,8 @@
       <span class='job'> - Student - </span>
     </div>
     <div class='back'>
-      <span>Skills:</span>
-      <p>HTML, CSS, Javascript. UX/UI designer</p>
+      <span>Subjects:</span>
+      <p>English, Afrikaans, Maths, Natural Science, Geography, Sports Skills, Art</p>
     </div>
   </div>
   <!-- Estrategie -->
@@ -64,7 +65,7 @@
     </div>
     <div class='back'>
       <span>Skills:</span>
-      <p>HTML, CSS, Javascript. UX/UI designer</p>
+      <p>Brazilian Jiu Jitsu, Self Defence, Jiu Jitsu Education</p>
     </div>
   </div>
   <!-- upholstery -->
@@ -77,7 +78,7 @@
     </div>
     <div class='back'>
       <span>Skills:</span>
-      <p>HTML, CSS, Javascript. UX/UI designer</p>
+      <p>Upholstery, Courier</p>
     </div>
   </div>
   <!-- work -->
@@ -93,8 +94,8 @@
       <span class='job'> - Aspiring Web Developer - </span>
     </div>
     <div class='back'>
-      <span>Skills:</span>
-      <p>HTML, CSS, Javascript. UX/UI designer</p>
+      <span>Job</span>
+      <p>Web development using HTML, CSS, Javascript.</p>
     </div>
   </div>
     <!-- Massage -->
@@ -106,8 +107,8 @@
       <span class='job'> - Free Lancer - </span>
     </div>
     <div class='back'>
-      <span>Skills:</span>
-      <p>HTML, CSS, Javascript. UX/UI designer</p>
+      <span>Job:</span>
+      <p>Massage therapy.</p>
     </div>
   </div>
     <!-- coach -->
@@ -119,8 +120,8 @@
       <span class='job'> - Junior's Coach - </span>
     </div>
     <div class='back'>
-      <span>Skills:</span>
-      <p>HTML, CSS, Javascript. UX/UI designer</p>
+      <span>Job:</span>
+      <p>Teaching kids various techniques as well as life lessons and dicipline</p>
     </div>
   </div>
     <!-- LCA -->
@@ -132,8 +133,8 @@
       <span class='job'> - Junior Upholstery - </span>
     </div>
     <div class='back'>
-      <span>Skills:</span>
-      <p>HTML, CSS, Javascript. UX/UI designer</p>
+      <span>Job:</span>
+      <p>Building furniture, delivering to customers and assisting where needed</p>
     </div>
   </div>
     <!-- Cliffe Dekker Hofmeyr -->
@@ -145,8 +146,8 @@
       <span class='job'> - Job Shadow - </span>
     </div>
     <div class='back'>
-      <span>Skills:</span>
-      <p>HTML, CSS, Javascript. UX/UI designer</p>
+      <span>Job:</span>
+      <p>Shadowing lawyers</p>
     </div>
   </div>
     <!-- Job Shadow -->
@@ -158,8 +159,8 @@
       <span class='job'> - Job Shadow - </span>
     </div>
     <div class='back'>
-      <span>Skills:</span>
-      <p>HTML, CSS, Javascript. UX/UI designer</p>
+      <span>Job:</span>
+      <p>Shadowing travel agents</p>
     </div>
   </div>
   </div>
@@ -206,7 +207,7 @@
     -webkit-transition-timing-function: linear;
             transition-timing-function: linear;
     border: solid 4px red;
-    box-shadow: 2px 3px 3px 3px;
+    box-shadow: 2px 3px 3px 3px rgba(0, 0, 0, 0.308);
 }
 .front {
     transform: rotateY(0deg);

@@ -139,11 +139,11 @@
                 </div>
                 <div class="modal-footer mx-auto">
                   <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
-                    <a target="_blank" href="https://benevolent-fairy-63d677.netlify.app"><i
+                    <a target="_blank" href="https://rad-tanuki-5a3ade.netlify.app"><i
                         class="bi bi-globe text-light"></i></a>
                   </button>
                   <button type="button" class="btn btn-danger"><a target="_blank"
-                      href="https://github.com/MikhailThomas/Rainbow"><i
+                      href="https://github.com/MikhailThomas/to_do_list.git"><i
                         class="bi bi-github text-light"></i></a></button>
                 </div>
               </div>
@@ -167,7 +167,7 @@
                       <div class="col-md-6">
                         <h4>Holiday Destination</h4>
                         <p>
-                          This is my personal top 5 holiday destination i would like to travel to i made this using HTML.
+                          This is my personal top 5 reasond i would like to travel to the Bahamas HTML.
                         </p>
                       </div>
                     </div>
@@ -175,11 +175,11 @@
                 </div>
                 <div class="modal-footer mx-auto">
                   <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
-                    <a target="_blank" href="https://benevolent-fairy-63d677.netlify.app"><i
+                    <a target="_blank" href="https://wondrous-khapse-1360d1.netlify.app"><i
                         class="bi bi-globe text-light"></i></a>
                   </button>
                   <button type="button" class="btn btn-danger"><a target="_blank"
-                      href="https://github.com/MikhailThomas/Rainbow"><i
+                      href="https://github.com/MikhailThomas/holiday_destination.git"><i
                         class="bi bi-github text-light"></i></a></button>
                 </div>
               </div>
@@ -211,11 +211,11 @@
                 </div>
                 <div class="modal-footer mx-auto">
                   <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
-                    <a target="_blank" href="https://benevolent-fairy-63d677.netlify.app"><i
+                    <a target="_blank" href="https://voluble-trifle-6199ab.netlify.app"><i
                         class="bi bi-globe text-light"></i></a>
                   </button>
                   <button type="button" class="btn btn-danger"><a target="_blank"
-                      href="https://github.com/MikhailThomas/Rainbow"><i
+                      href="https://github.com/MikhailThomas/calculator.git"><i
                         class="bi bi-github text-light"></i></a></button>
                 </div>
               </div>
@@ -247,11 +247,11 @@
                 </div>
                 <div class="modal-footer mx-auto">
                   <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
-                    <a target="_blank" href="https://benevolent-fairy-63d677.netlify.app"><i
+                    <a target="_blank" href="https://comforting-semifreddo-f02e99.netlify.app"><i
                         class="bi bi-globe text-light"></i></a>
                   </button>
                   <button type="button" class="btn btn-danger"><a target="_blank"
-                      href="https://github.com/MikhailThomas/Rainbow"><i
+                      href="https://github.com/MikhailThomas/EOM_real_estate.git"><i
                         class="bi bi-github text-light"></i></a></button>
                 </div>
               </div>
@@ -283,11 +283,11 @@
                 </div>
                 <div class="modal-footer mx-auto">
                   <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
-                    <a target="_blank" href="https://benevolent-fairy-63d677.netlify.app"><i
+                    <a target="_blank" href="https://deluxe-marshmallow-464bc5.netlify.app"><i
                         class="bi bi-globe text-light"></i></a>
                   </button>
                   <button type="button" class="btn btn-danger"><a target="_blank"
-                      href="https://github.com/MikhailThomas/Rainbow"><i
+                      href="https://github.com/MikhailThomas/EOM_Portfolio.git"><i
                         class="bi bi-github text-light"></i></a></button>
                 </div>
               </div>
@@ -319,11 +319,11 @@
                 </div>
                 <div class="modal-footer mx-auto">
                   <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
-                    <a target="_blank" href="https://benevolent-fairy-63d677.netlify.app"><i
+                    <a target="_blank" href="https://mellifluous-youtiao-ee4cd6.netlify.app"><i
                         class="bi bi-globe text-light"></i></a>
                   </button>
                   <button type="button" class="btn btn-danger"><a target="_blank"
-                      href="https://github.com/MikhailThomas/Rainbow"><i
+                      href="https://github.com/MikhailThomas/temperature_converter.git"><i
                         class="bi bi-github text-light"></i></a></button>
                 </div>
               </div>
@@ -355,11 +355,11 @@
                 </div>
                 <div class="modal-footer mx-auto">
                   <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
-                    <a target="_blank" href="https://benevolent-fairy-63d677.netlify.app"><i
+                    <a target="_blank" href=""><i
                         class="bi bi-globe text-light"></i></a>
                   </button>
                   <button type="button" class="btn btn-danger"><a target="_blank"
-                      href="https://github.com/MikhailThomas/Rainbow"><i
+                      href="https://github.com/MikhailThomas/daggerfall.git"><i
                         class="bi bi-github text-light"></i></a></button>
                 </div>
               </div>
