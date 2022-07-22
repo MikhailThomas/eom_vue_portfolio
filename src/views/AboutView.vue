@@ -180,7 +180,7 @@
       	<a href="#">
         	<span class="caption">
         		<h3>Reagan Carolussen</h3>
-            <p class="desc">I am a energetic, happy and loving massage therapist who has taken part in the Healing Hands Academy, holistic massage course. I am determined to perfect my spiritual, physical and mental healing capabilities through touch communication. </p>
+            <p class="desc"></p>
         	</span>
           <img src="../assets/Reagan1.jpg">
         </a>
