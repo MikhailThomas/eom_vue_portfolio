@@ -14,8 +14,7 @@ export default{
         max-height: 4rem;
         width: 100vw;
         background-color: gold;
-        position: sticky;
-        bottom: 0;
+        position: absolute;
         border-top: solid whitesmoke;
     }
 </style>

@@ -6,7 +6,7 @@
       <div class="frame">
       	<a href="#">
         	<span class="caption">
-        		<h2>"THE MAN"</h2>
+        		<h3>"THE MAN"</h3>
             <p class="desc">I am a energetic, happy and loving massage therapist who has taken part in the Healing Hands Academy, holistic massage course. I am determined to perfect my spiritual, physical and mental healing capabilities through touch communication. </p>
         	</span>
           <img src="https://assets.codepen.io/2856/batman-detective.jpg">
@@ -16,7 +16,7 @@
       <div class="frame">
 				<a href="#">
         	<span class="caption">
-        		<h2>MIKHAIL</h2>
+        		<h3>MIKHAIL</h3>
             <p class="desc">Mikhail Eaon Thomas is an aspiring web developer who has been apart of the Life Choices coding internship. This is where he found his passion for web development and design. "My goal in life is to become the best at everything i do, through my hard work, determination and never settling for less than the best".</p>
         	</span>
         	<img src="https://assets.codepen.io/2856/daredevil.jpg">
@@ -25,7 +25,7 @@
       <div class="frame">
         <a href="#">
         	<span class="caption">
-        		<h2>"THE MYTH"</h2>
+        		<h3>"THE MYTH"</h3>
             <p class="desc">I am a practitioner and a coach of Brazilian Jiu Jitsu.BJJ is a martial art focusing on the skill of taking an opponent to the ground, controlling the opponent, and using a number of techniques to force them into submission. This is the same mindset i use when taking on challenges using skill, knowledge and control to overcome them.</p>
         	</span>
       	<img src="https://assets.codepen.io/2856/glc_teamwork.jpg">
@@ -37,7 +37,7 @@
       <!-- technical skills -->
       <div id="technical" class="col-6">
         <h2>TECHNICAL SKILLS</h2>
-        <div>
+        <div class="skill-bars">
             <p class="d-flex justify-content-between text-center
                     text-sm-center">
               HTML <span>80%</span>
@@ -47,7 +47,7 @@
                 aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
-          <div>
+          <div class="skill-bars">
             <p class="d-flex justify-content-between text-center
                     text-sm-center">
               CSS <span>60%</span>
@@ -57,7 +57,7 @@
                 aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
-          <div>
+          <div class="skill-bars">
             <p class="d-flex justify-content-between text-center
                     text-sm-center">
               BOOTSTRAP <span>60%</span>
@@ -67,7 +67,7 @@
                 aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
-          <div>
+          <div class="skill-bars">
             <p class="d-flex justify-content-between text-center
                     text-sm-center">
               JAVASCRIPT <span>20%</span>
@@ -77,7 +77,7 @@
                 aria-valuemin="0" aria-valuemax="100"></div>
             </div>
           </div>
-          <div>
+          <div class="skill-bars">
             <p class="d-flex justify-content-between text-center
                     text-sm-center">
               VUE <span>100%</span>
@@ -92,7 +92,7 @@
       <!-- soft skills -->
       <div id="soft" class="col-6">
         <h2>SOFT SKILLS</h2>
-        <div>
+        <div class="skill-bars">
               <p class="d-flex justify-content-between text-center
                     text-sm-center">
                 TEAM WORK <span>90%</span>
@@ -102,7 +102,7 @@
                   aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
-            <div>
+            <div class="skill-bars">
               <p class="d-flex justify-content-between text-center
                     text-sm-center">
                 HARD WORK<span>90%</span>
@@ -112,7 +112,7 @@
                   aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
-            <div>
+            <div class="skill-bars">
               <p class="d-flex justify-content-between text-center
                     text-sm-center">
                 TRUSTING <span>100%</span>
@@ -122,7 +122,7 @@
                   aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
-            <div>
+            <div class="skill-bars">
               <p class="d-flex justify-content-between text-center
                     text-sm-center">
                 DETERMINATION <span>90%</span>
@@ -132,7 +132,7 @@
                   aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
-            <div>
+            <div class="skill-bars">
               <p class="d-flex justify-content-between text-center
                     text-sm-center">
                 HUMILITY <span>0%</span>
@@ -146,12 +146,12 @@
       <!-- /soft skills/ -->
     </div>
     <!-- testimonials -->
-    <h1>Testimonials</h1>
+    <h2>Testimonials</h2>
         <section id="main">
       <div class="frame">
       	<a href="#">
         	<span class="caption">
-        		<h2>Cameron Stemmet</h2>
+        		<h3>Cameron Stemmet</h3>
             <p class="desc">Mikhail Thomas has been an outstanding person let alone aspiring web developer. He works hard and he would be a great asset to anyone. he has a great personality as well as great teamwork ability. He’s shown great prowess in leadership roles and never runs away from a challenge. I recommend him for your company.</p>
         	</span>
           <img src="https://assets.codepen.io/2856/batman-detective.jpg">
@@ -161,7 +161,7 @@
       <div class="frame">
 				<a href="#">
         	<span class="caption">
-        		<h2>Joshe Theys</h2>
+        		<h3>Joshe Theys</h3>
             <p class="desc">Mikhail is a dedicated, positive young man. Through my experience working with him as a colleague at Life Choices Academy, I have witnessed his perseverance in the face of adversity as he never gives up until he finds the solution to various coding issues.  He is dedicated to his tasks as he exhibits excellent time-management skills by always completing them on time and making sure that they are up to standard. He is a natural leader and a great communicator during group work. He will be an excellent addiction to your team.</p>
         	</span>
         	<img src="https://assets.codepen.io/2856/daredevil.jpg">
@@ -170,7 +170,7 @@
       <div class="frame">
         <a href="#">
         	<span class="caption">
-        		<h2>Amanda Gudlwa</h2>
+        		<h3>Amanda Gudlwa</h3>
             <p class="desc">I have known Mikhail Thomas for a little over a month now. He is a pleasure to be around even outside the class room. He can hold conversation on different topics. He knows how to move from not knowing something to knowing it, because he understands his learning style. When working on the team he collaborates well, and engages well. He would be an assert on any team.</p>
         	</span>
       	<img src="https://assets.codepen.io/2856/glc_teamwork.jpg">
@@ -179,7 +179,7 @@
       <div class="frame">
       	<a href="#">
         	<span class="caption">
-        		<h2>Reagan Carolussen</h2>
+        		<h3>Reagan Carolussen</h3>
             <p class="desc">I am a energetic, happy and loving massage therapist who has taken part in the Healing Hands Academy, holistic massage course. I am determined to perfect my spiritual, physical and mental healing capabilities through touch communication. </p>
         	</span>
           <img src="https://assets.codepen.io/2856/batman-detective.jpg">
@@ -189,7 +189,7 @@
       <div class="frame">
 				<a href="#">
         	<span class="caption">
-        		<h2>Joel</h2>
+        		<h3>Joel</h3>
             <p class="desc">I have no hesitancy in writing a letter of recommendation for Mikhail. Joel Mukanya -Coding Lecturer.</p>
         	</span>
         	<img src="https://assets.codepen.io/2856/daredevil.jpg">
@@ -198,7 +198,7 @@
       <div class="frame">
         <a href="#">
         	<span class="caption">
-        		<h2>Jason</h2>
+        		<h3>Jason</h3>
             <p class="desc"></p>
         	</span>
       	<img src="https://assets.codepen.io/2856/glc_teamwork.jpg">
@@ -216,6 +216,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Alfa Slab One', cursive;
 }
 
+h2, p{
+  color:rgb(43, 101, 168);
+}
+
+h3{
+  color: gold;
+}
+
 #about{
   background-color: gold;
   padding-bottom: 3rem;
@@ -229,6 +237,10 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   gap: 5rem;
 	margin: auto 10px auto;
+}
+
+.skill-bars{
+  margin: 1rem;
 }
 
 .frame {
