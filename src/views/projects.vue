@@ -1,39 +1,39 @@
 <template>
     <article class="comic">
   <div class="panel">
-    <img id="modal-img-1" data-bs-toggle="modal" data-bs-target="#modal1" src="../assets/logo.png" alt="ari-project">
+    <img id="modal-img-1" data-bs-toggle="modal" data-bs-target="#modal1" src="../assets/Projects/Ari-Store.png" alt="ari-project">
     <p class="text top-left">Just Like Magic...</p>
     <p class="text bottom-right">Ariana Grande paraphernalia store</p>
   </div>
   <div class="panel">
-    <img id="modal-img-2" data-bs-toggle="modal" data-bs-target="#modal2" src="../assets/logo.png" alt="rainbow-project">
+    <img id="modal-img-2" data-bs-toggle="modal" data-bs-target="#modal2" src="../assets/Projects/Rainbow.png" alt="rainbow-project">
     <p class="text top-left">Rainbow...</p>
     <p class="text bottom-right">...mostly using CSS</p>
   </div>
   <div class="panel">
-    <img id="modal-img-3" data-bs-toggle="modal" data-bs-target="#modal3" src="../assets/logo.png" alt="todo-project">
+    <img id="modal-img-3" data-bs-toggle="modal" data-bs-target="#modal3" src="../assets/Projects/ToDoList.png" alt="todo-project">
     <p class="text top-left">To-Do List...</p>
   </div>
   <div class="panel">
-    <img id="modal-img-4" data-bs-toggle="modal" data-bs-target="#modal4" src="../assets/logo.png" alt="location-project">
+    <img id="modal-img-4" data-bs-toggle="modal" data-bs-target="#modal4" src="../assets/Projects/Bahamas.png" alt="location-project">
     <p class="text top-left">Holiday Destination...</p>
   </div>
   <div class="panel">
-    <img id="modal-img-5" data-bs-toggle="modal" data-bs-target="#modal5" src="../assets/logo.png" alt="calculator-project">
+    <img id="modal-img-5" data-bs-toggle="modal" data-bs-target="#modal5" src="../assets/Projects/Calculator.png" alt="calculator-project">
     <p class="text top-left">Calculator...</p>
     <p class="text bottom-right">...My first time using JavaScript</p>
   </div>
   <div class="panel">
-    <img id="modal-img-6" data-bs-toggle="modal" data-bs-target="#modal6" src="../assets/logo.png" alt="property-project">
+    <img id="modal-img-6" data-bs-toggle="modal" data-bs-target="#modal6" src="../assets/Projects/Location3.png" alt="property-project">
     <p class="text top-left">Real Estate...</p>
   </div>
   <div class="panel">
-    <img id="modal-img-7" data-bs-toggle="modal" data-bs-target="#modal7" src="../assets/logo.png" alt="portfolio-project">
+    <img id="modal-img-7" data-bs-toggle="modal" data-bs-target="#modal7" src="../assets/Projects/Portfolio.png" alt="portfolio-project">
     <p class="text top-left">Portfolio...</p>
     <p class="text bottom-right">...My very first portfolio usinng HTML and CSS only</p>
   </div>
   <div class="panel">
-    <img id="modal-img-8" data-bs-toggle="modal" data-bs-target="#modal8" src="../assets/logo.png" alt="temp-converter-project">
+    <img id="modal-img-8" data-bs-toggle="modal" data-bs-target="#modal8" src="../assets/Projects/TempConverter.png" alt="temp-converter-project">
     <p class="text top-left">Temperature Converter...</p>
   </div>
   <div class="panel">
@@ -57,7 +57,7 @@
                         <img class="img-fluid" src="../assets/logo.png" />
                       </div>
                       <div class="col-md-6">
-                        <h4>Just Like Magic</h4>
+                        <h1>Just Like Magic</h1>
                         <p>
                           Just like magic is a store we created in a team of 4. this was our first group project using vue.
                         </p>
@@ -93,7 +93,7 @@
                         <img class="img-fluid" src="../assets/logo.png" />
                       </div>
                       <div class="col-md-6">
-                        <h4>Rainbow</h4>
+                        <h1>Rainbow</h1>
                         <p>
                           This is a rainbow that I created using HTML and CSS during the first few weeks of the coding programme.
                         </p>
@@ -129,7 +129,7 @@
                         <img class="img-fluid" src="../assets/logo.png" />
                       </div>
                       <div class="col-md-6">
-                        <h4>To-Do List</h4>
+                        <h1>To-Do List</h1>
                         <p>
                           This is a To-Do List i created using HTML JavaScript and CSS practicing functionality.
                         </p>
@@ -165,7 +165,7 @@
                         <img class="img-fluid" src="../assets/logo.png" />
                       </div>
                       <div class="col-md-6">
-                        <h4>Holiday Destination</h4>
+                        <h1>Holiday Destination</h1>
                         <p>
                           This is my personal top 5 reasond i would like to travel to the Bahamas HTML.
                         </p>
@@ -201,7 +201,7 @@
                         <img class="img-fluid" src="../assets/logo.png" />
                       </div>
                       <div class="col-md-6">
-                        <h4>Calculator</h4>
+                        <h1>Calculator</h1>
                         <p>
                           This is a Calculator that I created using HTML and CSS and JavaScript.
                         </p>
@@ -237,7 +237,7 @@
                         <img class="img-fluid" src="../assets/logo.png" />
                       </div>
                       <div class="col-md-6">
-                        <h4>Location Location Location</h4>
+                        <h1>Location Location Location</h1>
                         <p>
                           This is a Real Estate estate website used to sell properties and it has an admin page used to edit delete and add functions. I made this using HTML, CSS and JavaScript.
                         </p>
@@ -273,7 +273,7 @@
                         <img class="img-fluid" src="../assets/logo.png" />
                       </div>
                       <div class="col-md-6">
-                        <h4>Portfolio</h4>
+                        <h1>Portfolio</h1>
                         <p>
                           This is the very first portfolio i made when i was fresh to HTML and CSS and i am extremely proud of my work.
                         </p>
@@ -309,7 +309,7 @@
                         <img class="img-fluid" src="../assets/logo.png" />
                       </div>
                       <div class="col-md-6">
-                        <h4>Temperature Converter</h4>
+                        <h1>Temperature Converter</h1>
                         <p>
                           This temperature converter i made using mostly JavaScript with only a handfull of HTML and CSS
                         </p>
@@ -345,7 +345,7 @@
                         <img class="img-fluid" src="../assets/logo.png" />
                       </div>
                       <div class="col-md-6">
-                        <h4>Daggerfall</h4>
+                        <h1>Daggerfall</h1>
                         <p>
                           This is a site that I created using HTML and CSS.
                         </p>
@@ -371,9 +371,22 @@
 
 </script>
 <style scoped>
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Bebas Neue', cursive;
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: rgb(43, 101, 168);
+}
+
+img{
+ max-height: 300px;
+  transition: 0.5s;
+  object-position: top;
+}
 img:hover{
     transform:scale(1.2);
-  transition: 0.5s;
+  
 }
 
 .comic {

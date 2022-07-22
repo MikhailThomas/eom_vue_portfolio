@@ -1,6 +1,6 @@
 <template>
   <div  id="home" class="home">
-    <div id="landing" class="mx-auto">
+    <div id="landing" class="mx-auto d-flex justify-content-center align-items-center vh-100">
       <span>MIKHAIL THOMAS</span>
     </div>
   </div>

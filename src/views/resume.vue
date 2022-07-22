@@ -5,8 +5,7 @@
      <div id="education">
   <div class='card'>
     <div class='front'>
-      <img src='../assets/logo.png' class='contact' />
-      <span class='name'>Plumstead High</span>
+      <span class='name'><h2>Plumstead High School</h2></span>
       <hr>
       <span class='job'> - Student - </span>
     </div>
@@ -19,8 +18,7 @@
   <!-- healing -->
   <div class='card'>
     <div class='front'>
-      <img src='../assets/logo.png' class='contact' />
-      <span class='name'>Healing Hands Academy</span>
+      <span class='name'><h2>Healing Hands Academy</h2></span>
       <hr>
       <span class='job'> - Student - </span>
     </div>
@@ -32,8 +30,7 @@
   <!-- LCA -->
   <div class='card'>
     <div class='front'>
-      <img src='../assets/logo.png' class='contact' />
-      <span class='name'>Life Choices Academy</span>
+      <span class='name'><h2>Life Choices Academy</h2></span>
       <hr>
       <span class='job'> - Student - </span>
     </div>
@@ -45,8 +42,7 @@
   <!-- Sunlands -->
   <div class='card'>
     <div class='front'>
-      <img src='../assets/logo.png' class='contact' />
-      <span class='name'>Sunlands Primary</span>
+      <span class='name'><h2>Sunlands Primary</h2></span>
       <hr>
       <span class='job'> - Student - </span>
     </div>
@@ -58,8 +54,7 @@
   <!-- Estrategie -->
   <div class='card'>
     <div class='front'>
-      <img src='../assets/logo.png' class='contact' />
-      <span class='name'>Estrategia</span>
+      <span class='name'><h2>Estrategia BJJSA</h2></span>
       <hr>
       <span class='job'> - Student - </span>
     </div>
@@ -71,8 +66,7 @@
   <!-- upholstery -->
   <div class='card'>
     <div class='front'>
-      <img src='../assets/logo.png' class='contact' />
-      <span class='name'>Johannes Curtaining</span>
+      <span class='name'><h2>Johannes Curtaining</h2></span>
       <hr>
       <span class='job'> - Worker - </span>
     </div>
@@ -88,8 +82,7 @@
     <!-- Johannes -->
     <div class='card'>
     <div class='front'>
-      <img src='../assets/logo.png' class='contact' />
-      <span class='name'>Coding</span>
+      <span class='name'><h2>Web Development</h2></span>
       <hr>
       <span class='job'> - Aspiring Web Developer - </span>
     </div>
@@ -101,21 +94,19 @@
     <!-- Massage -->
     <div class='card'>
     <div class='front'>
-      <img src='../assets/logo.png' class='contact' />
-      <span class='name'>Massage Therapy</span>
+      <span class='name'><h2>Massage Therapy</h2></span>
       <hr>
       <span class='job'> - Free Lancer - </span>
     </div>
     <div class='back'>
       <span>Job:</span>
-      <p>Massage therapy.</p>
+      <p>Healing people mentaly, physically and spiritualy through means of touch.</p>
     </div>
   </div>
     <!-- coach -->
     <div class='card'>
     <div class='front'>
-      <img src='../assets/logo.png' class='contact' />
-      <span class='name'>Coaching</span>
+      <span class='name'><h2>Junior's Coach</h2></span>
       <hr>
       <span class='job'> - Junior's Coach - </span>
     </div>
@@ -127,8 +118,7 @@
     <!-- LCA -->
     <div class='card'>
     <div class='front'>
-      <img src='../assets/logo.png' class='contact' />
-      <span class='name'>Upholstery</span>
+      <span class='name'><h2>Upholstery/ courier</h2></span>
       <hr>
       <span class='job'> - Junior Upholstery - </span>
     </div>
@@ -140,8 +130,7 @@
     <!-- Cliffe Dekker Hofmeyr -->
     <div class='card'>
     <div class='front'>
-      <img src='../assets/logo.png' class='contact' />
-      <span class='name'>Cliffe Dekker Hofmeyr</span>
+      <span class='name'><h2>Cliffe Dekker Hofmeyr</h2></span>
       <hr>
       <span class='job'> - Job Shadow - </span>
     </div>
@@ -153,8 +142,7 @@
     <!-- Job Shadow -->
     <div class='card'>
     <div class='front'>
-      <img src='../assets/logo.png' class='contact' />
-      <span class='name'>Eve Travel</span>
+      <span class='name'><h2>Eve Travel Agency</h2></span>
       <hr>
       <span class='job'> - Job Shadow - </span>
     </div>
@@ -170,12 +158,31 @@
 
 </script>
 <style scoped>
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Bebas Neue', cursive;
+  color: black;
+  text-decoration-color: rgb(43, 101, 168) !important;
+}
+
+h1{
+  padding-top: 3rem;
+  text-decoration: underline;
+}
+
+h2{
+  text-decoration: underline;
+}
+
+p{
+  color: black;
+}
 
 #container {
     width: auto;
     height: auto;
     text-align: center;
     background-color: gold;
+    padding-bottom: 3rem;
 }
 
 #container > hr {
@@ -183,7 +190,7 @@
     width: 80%;
 }
 .card {
-    margin: 5px;
+    margin: 10px;
     display: inline-block;
     position: relative;
     width: 220px;
@@ -211,17 +218,16 @@
 }
 .front {
     transform: rotateY(0deg);
-    background: linear-gradient(to bottom right, rgb(0, 0, 0), lightblue);
+    background: linear-gradient(to bottom, white, gold, red);
     text-align: center;
     padding: 30px;
 }
 .back {
-    background: linear-gradient(to bottom right, rgb(78, 78, 78), lightblue);
+    background: linear-gradient(to bottom, red, gold, white);
     -webkit-transform: rotateY(180deg);
             transform: rotateY(180deg);
     padding: 40px 15px;
     color: #fff;
-    background-image:url('../assets/logo.png') ;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
