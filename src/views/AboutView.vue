@@ -18,79 +18,38 @@
       <!-- technical skills -->
       <div id="technical" class="col-6" >
         <h2>TECHNICAL SKILLS</h2>
-        <div class="skill-bars" v-for="tech in Technical">
+        <div class="skill-bars" v-for="tech in Technical" :key="tech">
             <p class="d-flex justify-content-between text-center
                     text-sm-center">
               {{ tech.name }} <span>{{ tech.percent }}</span>
             </p>
             <div class="progress">
-              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 80%" aria-valuenow="80"
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" :style="'width:' +tech.percent" :aria-valuenow="tech.value"
                 aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-          </div>
-          
+          </div>    
       </div>
       <!-- /technical skills/ -->
       <!-- soft skills -->
       <div id="soft" class="col-6">
         <h2>SOFT SKILLS</h2>
-        <div class="skill-bars">
+        <div class="skill-bars" v-for="soft in Soft" :key="soft">
               <p class="d-flex justify-content-between text-center
                     text-sm-center">
-                TEAM WORK <span>90%</span>
+                {{ soft.name }} <span>{{ soft.percent }}</span>
               </p>
               <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%" aria-valuenow="90"
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" :style="'width:' +soft.percent" :aria-valuenow="soft.value"
                   aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-            </div>
-            <div class="skill-bars">
-              <p class="d-flex justify-content-between text-center
-                    text-sm-center">
-                HARD WORK<span>90%</span>
-              </p>
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%" aria-valuenow="90"
-                  aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-            <div class="skill-bars">
-              <p class="d-flex justify-content-between text-center
-                    text-sm-center">
-                TRUSTING <span>100%</span>
-              </p>
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 100%" aria-valuenow="100"
-                  aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-            <div class="skill-bars">
-              <p class="d-flex justify-content-between text-center
-                    text-sm-center">
-                DETERMINATION <span>90%</span>
-              </p>
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%" aria-valuenow="90"
-                  aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-            <div class="skill-bars">
-              <p class="d-flex justify-content-between text-center
-                    text-sm-center">
-                HUMILITY <span>0%</span>
-              </p>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0"
-                  aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
+            </div>  
       </div>
       <!-- /soft skills/ -->
     </div>
     <!-- testimonials -->
     <h2 class="py-3 pt-5">Testimonials</h2>
         <section id="main">
-      <div class="frame" v-for="test in Testimonials" key="test">
+      <div class="frame" v-for="test in Testimonials" :key="test">
       	<a href="#">
         	<span class="caption">
         		<h3>{{ test.name }}</h3>
@@ -114,6 +73,9 @@ export default {
     },
     Technical() {
       return this.$store.state.Technical
+    },
+    Soft() {
+      return this.$store.state.Soft
     },
   }
 }
