@@ -106,6 +106,66 @@ export default createStore({
             value: 0,
         },
     ],
+    Resume:[
+        {
+            name: 'PLUMSTEAD HIGH SCHOOL',
+            role: 'Student',
+            dev: 'Subjects:',
+            desc: 'English, Afrikaans, Maths Literacy, History Geography, Business Studies, Life Orientation',
+        },
+        {
+            name: 'HEALING HANDS',
+            role: 'Student',
+            dev: 'Skill:',
+            desc: 'Holistic Massage and nutrition',
+        },
+        {
+            name: 'LIFE CHOICES ACADEMY',
+            role: 'Student',
+            dev: 'Skill:',
+            desc: 'HTML, CSS, Javascript.',
+        },
+        {
+            name: 'SUNLANDS PRIMARY',
+            role: 'Student',
+            dev: 'Subjects:',
+            desc: 'English, Afrikaans, Maths, Natural Science, Geography, Sports Skills, Art',
+        },
+        {
+            name: 'ESTRATEGIA BJJSA',
+            role: 'Student',
+            dev: 'Skill:',
+            desc: 'English, Afrikaans, Maths Literacy, History Geography, Business Studies, Life Orientation',
+        },
+        {
+            name: 'JOHANNES CURTAINING',
+            role: 'Worker',
+            dev: 'skill:',
+            desc: 'English, Afrikaans, Maths Literacy, History Geography, Business Studies, Life Orientation',
+        },
+    ],
+    Contact:[
+        {
+            name: 'GITHUB',
+            link: 'https://github.com/MikhailThomas',
+            icon: 'display-6 bi bi-github',
+        },
+        {
+            name: 'LINKEDIN',
+            link: 'https://www.linkedin.com/in/mikhail-thomas-177065208/"><',
+            icon: 'display-6 bi bi-linkedin',
+        },
+        {
+            name: 'EMAIL',
+            link: '#contact',
+            icon: 'display-6 bi bi-envelope',
+        },
+        {
+            name: 'FACEBOOK',
+            link: 'https://www.facebook.com/mikhail.thomas.773',
+            icon: 'display-6 bi bi-facebook',
+        },
+    ]
 
     },
     getters: {},

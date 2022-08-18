@@ -17,25 +17,20 @@
                 </div>   
             </form>
             <div id="contact" class="row w-100 mx-auto py-5 my-3 text-center">
-              <div class="col-3">
-                <a target="_blank" href="https://github.com/MikhailThomas"><i class="display-6 bi bi-github">Github</i></a>
-              </div>
-              <div class="col-3">
-                <a target="_blank" href="https://www.linkedin.com/in/mikhail-thomas-177065208/"><i
-                    class="display-6 bi bi-linkedin">Linkedin</i></a>
-              </div>
-              <div class="col-3">
-                <a href="#contact"><i class="display-6 bi-envelope">Email</i></a>
-              </div>
-              <div class="col-3">
-                <a target="_blank" href="https://www.facebook.com/mikhail.thomas.773"><i
-                    class="display-6 bi bi-facebook ">Facebook</i></a>
+              <div class="col-sm-6" v-for="cont in Contact" :key="cont">
+                <a target="_blank" :href="cont.link"><i :class="cont.icon">{{ cont.name }}</i></a>
               </div>
           </div>
         </div>
 </template>
 <script>
-
+export default {
+  computed: {
+    Contact() {
+      return this.$store.state.Contact
+    }
+  }
+}
 </script>
 <style scoped>
 #form{
