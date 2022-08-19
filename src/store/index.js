@@ -106,42 +106,80 @@ export default createStore({
             value: 0,
         },
     ],
-    Resume:[
+    Education:[
         {
             name: 'PLUMSTEAD HIGH SCHOOL',
-            role: 'Student',
+            role: '- Student -',
             dev: 'Subjects:',
             desc: 'English, Afrikaans, Maths Literacy, History Geography, Business Studies, Life Orientation',
         },
         {
-            name: 'HEALING HANDS',
-            role: 'Student',
-            dev: 'Skill:',
+            name: 'HEALING HANDS ACADEMY',
+            role: '- Student -',
+            dev: 'Skills:',
             desc: 'Holistic Massage and nutrition',
         },
         {
             name: 'LIFE CHOICES ACADEMY',
-            role: 'Student',
-            dev: 'Skill:',
+            role: '- Student -',
+            dev: 'Skills:',
             desc: 'HTML, CSS, Javascript.',
         },
         {
             name: 'SUNLANDS PRIMARY',
-            role: 'Student',
+            role: '- Student -',
             dev: 'Subjects:',
             desc: 'English, Afrikaans, Maths, Natural Science, Geography, Sports Skills, Art',
         },
         {
             name: 'ESTRATEGIA BJJSA',
-            role: 'Student',
-            dev: 'Skill:',
-            desc: 'English, Afrikaans, Maths Literacy, History Geography, Business Studies, Life Orientation',
+            role: '- Student -',
+            dev: 'Skills:',
+            desc: 'Brazilian Jiu Jitsu, Self Defence, Jiu Jitsu Education',
         },
         {
             name: 'JOHANNES CURTAINING',
-            role: 'Worker',
-            dev: 'skill:',
-            desc: 'English, Afrikaans, Maths Literacy, History Geography, Business Studies, Life Orientation',
+            role: '- Worker -',
+            dev: 'skills:',
+            desc: 'Upholstery, Courier',
+        },
+    ],
+    Experience:[
+        {
+            name: 'WEB DEVELOPMENT',
+            role: '- Aspiring Web Developer -',
+            dev: 'JOB:',
+            desc: 'Web development using HTML, CSS, Javascript.',
+        },
+        {
+            name: 'MASSAGE THERAPY',
+            role: '- Free Lancer -',
+            dev: 'JOB:',
+            desc: 'Healing people mentaly, physically and spiritualy through means of touch.',
+        },
+        {
+            name: 'BJJ JUNIOR\'S COACH',
+            role: '- Junior\'s Coach -',
+            dev: 'JOB:',
+            desc: 'Teaching kids various techniques as well as life lessons and dicipline',
+        },
+        {
+            name: 'UPHOLSTERY/ COURIER',
+            role: '- Junior Upholsterer -',
+            dev: 'Job:',
+            desc: 'Building furniture, delivering to customers and assisting where needed.',
+        },
+        {
+            name: 'CLIFFE DEKKER HOFMEYR',
+            role: '- Job Shadow -',
+            dev: 'Skills:',
+            desc: 'Shadowing lawyers',
+        },
+        {
+            name: 'EVE TRAVEL AGENCY',
+            role: '- Job Shadow -',
+            dev: 'Job:',
+            desc: 'Shadowing travel agents',
         },
     ],
     Contact:[
@@ -165,8 +203,16 @@ export default createStore({
             link: 'https://www.facebook.com/mikhail.thomas.773',
             icon: 'display-6 bi bi-facebook',
         },
-    ]
+    ],
+    Modal: [
+        {
+            name:'Just Like Magic...',
+            link:'https://i.postimg.cc/DfdsymVL/Ari-Store.png',
+            extra:'Ariana Grande paraphernalia store',
+            target:'#modal1',
 
+        },
+    ]
     },
     getters: {},
   mutations: {},

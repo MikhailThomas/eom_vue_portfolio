@@ -3,158 +3,48 @@
   <h1>Education</h1>
      <hr>
      <div id="education">
-  <div class='card'>
+  <div class='card' v-for="education in Education" :key="education">
     <div class='front'>
-      <span class='name'><h2>Plumstead High School</h2></span>
+      <span class='name'><h2>{{ education.name }}</h2></span>
       <hr>
-      <span class='job'> - Student - </span>
+      <span class='job'>{{ education.role }}</span>
     </div>
     <div class='back'>
-      <span>Subjects:</span>
-      <p>English, Afrikaans, Maths Literacy, History
-      Geography, Business Studies, Life Orientation</p>
+      <span>{{ education.dev }}</span>
+      <p>{{ education.desc }}</p>
     </div>
   </div>
-  <!-- healing -->
-  <div class='card'>
-    <div class='front'>
-      <span class='name'><h2>Healing Hands Academy</h2></span>
-      <hr>
-      <span class='job'> - Student - </span>
-    </div>
-    <div class='back'>
-      <span>Skill:</span>
-      <p>Holistic Massage and nutrition</p>
-    </div>
-  </div>
-  <!-- LCA -->
-  <div class='card'>
-    <div class='front'>
-      <span class='name'><h2>Life Choices Academy</h2></span>
-      <hr>
-      <span class='job'> - Student - </span>
-    </div>
-    <div class='back'>
-      <span>Skills:</span>
-      <p>HTML, CSS, Javascript.</p>
-    </div>
-  </div>
-  <!-- Sunlands -->
-  <div class='card'>
-    <div class='front'>
-      <span class='name'><h2>Sunlands Primary</h2></span>
-      <hr>
-      <span class='job'> - Student - </span>
-    </div>
-    <div class='back'>
-      <span>Subjects:</span>
-      <p>English, Afrikaans, Maths, Natural Science, Geography, Sports Skills, Art</p>
-    </div>
-  </div>
-  <!-- Estrategie -->
-  <div class='card'>
-    <div class='front'>
-      <span class='name'><h2>Estrategia BJJSA</h2></span>
-      <hr>
-      <span class='job'> - Student - </span>
-    </div>
-    <div class='back'>
-      <span>Skills:</span>
-      <p>Brazilian Jiu Jitsu, Self Defence, Jiu Jitsu Education</p>
-    </div>
-  </div>
-  <!-- upholstery -->
-  <div class='card'>
-    <div class='front'>
-      <span class='name'><h2>Johannes Curtaining</h2></span>
-      <hr>
-      <span class='job'> - Worker - </span>
-    </div>
-    <div class='back'>
-      <span>Skills:</span>
-      <p>Upholstery, Courier</p>
-    </div>
-  </div>
-  <!-- work -->
   </div>
   <h1>Work Experience</h1>
   <div id="work">
     <!-- Johannes -->
-    <div class='card'>
+    <div class='card' v-for="experience in Experience"
+    
+    :key="experience">
     <div class='front'>
-      <span class='name'><h2>Web Development</h2></span>
+      <span class='name'><h2>{{ experience.name }}</h2></span>
       <hr>
-      <span class='job'> - Aspiring Web Developer - </span>
+      <span class='job'>{{ experience.role }}</span>
     </div>
     <div class='back'>
-      <span>Job</span>
-      <p>Web development using HTML, CSS, Javascript.</p>
-    </div>
-  </div>
-    <!-- Massage -->
-    <div class='card'>
-    <div class='front'>
-      <span class='name'><h2>Massage Therapy</h2></span>
-      <hr>
-      <span class='job'> - Free Lancer - </span>
-    </div>
-    <div class='back'>
-      <span>Job:</span>
-      <p>Healing people mentaly, physically and spiritualy through means of touch.</p>
-    </div>
-  </div>
-    <!-- coach -->
-    <div class='card'>
-    <div class='front'>
-      <span class='name'><h2>Junior's Coach</h2></span>
-      <hr>
-      <span class='job'> - Junior's Coach - </span>
-    </div>
-    <div class='back'>
-      <span>Job:</span>
-      <p>Teaching kids various techniques as well as life lessons and dicipline</p>
-    </div>
-  </div>
-    <!-- LCA -->
-    <div class='card'>
-    <div class='front'>
-      <span class='name'><h2>Upholstery/ courier</h2></span>
-      <hr>
-      <span class='job'> - Junior Upholstery - </span>
-    </div>
-    <div class='back'>
-      <span>Job:</span>
-      <p>Building furniture, delivering to customers and assisting where needed</p>
-    </div>
-  </div>
-    <!-- Cliffe Dekker Hofmeyr -->
-    <div class='card'>
-    <div class='front'>
-      <span class='name'><h2>Cliffe Dekker Hofmeyr</h2></span>
-      <hr>
-      <span class='job'> - Job Shadow - </span>
-    </div>
-    <div class='back'>
-      <span>Job:</span>
-      <p>Shadowing lawyers</p>
-    </div>
-  </div>
-    <!-- Job Shadow -->
-    <div class='card'>
-    <div class='front'>
-      <span class='name'><h2>Eve Travel Agency</h2></span>
-      <hr>
-      <span class='job'> - Job Shadow - </span>
-    </div>
-    <div class='back'>
-      <span>Job:</span>
-      <p>Shadowing travel agents</p>
+      <span>{{ experience.dev }}</span>
+      <p>{{ experience.desc }}</p>
     </div>
   </div>
   </div>
   </div>
 </template>
 <script>
+export default {
+  computed: {
+    Education() {
+      return this.$store.state.Education
+      },
+    Experience() {
+      return this.$store.state.Experience
+      }
+  }
+}
 
 </script>
 <style scoped>

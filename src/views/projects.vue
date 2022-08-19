@@ -1,9 +1,9 @@
 <template>
     <article class="comic">
-  <div class="panel">
-    <img id="modal-img-1" data-bs-toggle="modal" data-bs-target="#modal1" src="../assets/Projects/Ari-Store.png" alt="ari-project">
-    <p class="text top-left">Just Like Magic...</p>
-    <p class="text bottom-right">Ariana Grande paraphernalia store</p>
+  <div class="panel" v-for="modal in Modal" :key="modal">
+    <img id="modal-img-1" data-bs-toggle="modal" :data-bs-target="modal.target" :src="modal.link" alt="ari-project">
+    <p class="text top-left">{{ modal.name }}</p>
+    <p class="text bottom-right">{{ modal.extra }}</p>
   </div>
   <div class="panel">
     <img id="modal-img-2" data-bs-toggle="modal" data-bs-target="#modal2" src="../assets/Projects/Rainbow.png" alt="rainbow-project">
@@ -368,6 +368,13 @@
 <!-- /modal 9/ -->
 </template>
 <script>
+export default {
+  computed: {
+    Modal() {
+      return this.$store.state.Modal
+      },
+  }
+}
 
 </script>
 <style scoped>
@@ -380,13 +387,12 @@ h1, h2, h3, h4, h5, h6{
 }
 
 img{
- max-height: 300px;
   transition: 0.5s;
-  object-position: top;
+  max-width: 300px;
+  max-height: 300px;
 }
 img:hover{
     transform:scale(1.2);
-  
 }
 
 .comic {
@@ -401,7 +407,6 @@ img:hover{
   background-color:#fff;
   border:solid 5px red;
   box-shadow:0 6px 6px -6px #000;
-  display:inline-block;
   flex:1 1;
   height:300px;
   margin:0.6vmin;
