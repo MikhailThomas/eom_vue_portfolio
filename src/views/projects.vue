@@ -1,65 +1,29 @@
 <template>
     <article class="comic">
   <div class="panel" v-for="modal in Modal" :key="modal">
-    <img id="modal-img-1" data-bs-toggle="modal" :data-bs-target="modal.target" :src="modal.link" alt="ari-project">
+    <img id="modal-img-1" data-bs-toggle="modal" :data-bs-target="modal.target" :src="modal.link" alt="">
     <p class="text top-left">{{ modal.name }}</p>
     <p class="text bottom-right">{{ modal.extra }}</p>
   </div>
-  <div class="panel">
-    <img id="modal-img-2" data-bs-toggle="modal" data-bs-target="#modal2" src="../assets/Projects/Rainbow.png" alt="rainbow-project">
-    <p class="text top-left">Rainbow...</p>
-    <p class="text bottom-right">...mostly using CSS</p>
-  </div>
-  <div class="panel">
-    <img id="modal-img-3" data-bs-toggle="modal" data-bs-target="#modal3" src="../assets/Projects/ToDoList.png" alt="todo-project">
-    <p class="text top-left">To-Do List...</p>
-  </div>
-  <div class="panel">
-    <img id="modal-img-4" data-bs-toggle="modal" data-bs-target="#modal4" src="../assets/Projects/Bahamas.png" alt="location-project">
-    <p class="text top-left">Holiday Destination...</p>
-  </div>
-  <div class="panel">
-    <img id="modal-img-5" data-bs-toggle="modal" data-bs-target="#modal5" src="../assets/Projects/Calculator.png" alt="calculator-project">
-    <p class="text top-left">Calculator...</p>
-    <p class="text bottom-right">...My first time using JavaScript</p>
-  </div>
-  <div class="panel">
-    <img id="modal-img-6" data-bs-toggle="modal" data-bs-target="#modal6" src="../assets/Projects/Location3.png" alt="property-project">
-    <p class="text top-left">Real Estate...</p>
-  </div>
-  <div class="panel">
-    <img id="modal-img-7" data-bs-toggle="modal" data-bs-target="#modal7" src="../assets/Projects/Portfolio.png" alt="portfolio-project">
-    <p class="text top-left">Portfolio...</p>
-    <p class="text bottom-right">...My very first portfolio usinng HTML and CSS only</p>
-  </div>
-  <div class="panel">
-    <img id="modal-img-8" data-bs-toggle="modal" data-bs-target="#modal8" src="../assets/Projects/TempConverter.png" alt="temp-converter-project">
-    <p class="text top-left">Temperature Converter...</p>
-  </div>
-  <div class="panel">
-    <img id="modal-img-9" data-bs-toggle="modal" data-bs-target="#modal9" src="../assets/logo.png" alt="daggerfall-project">
-    <p class="text top-left">Daggerfall...</p>
-    <p class="text bottom-right">THE END</p>
-  </div>
 </article>
-<!-- modal 1 -->
-<div id="modal1" class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div v-for="modal in Modal" :key="modal">
+<div :id="modal.target" class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
               <div class="modal-content ">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Project 1</h5>
+                  <h5 class="modal-title" id="exampleModalLabel">{{ modal.projnumb }}</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                   <div class="container">
                     <div class="row">
                       <div class="col-md-6">
-                        <img class="img-fluid" src="../assets/logo.png" />
+                        <img class="img-fluid" :src="modal.link" />
                       </div>
                       <div class="col-md-6">
-                        <h1>Just Like Magic</h1>
+                        <h1>{{ modal.name }}</h1>
                         <p>
-                          Just like magic is a store we created in a team of 4. this was our first group project using vue.
+                          {{ modal.para }}
                         </p>
                       </div>
                     </div>
@@ -67,305 +31,17 @@
                 </div>
                 <div class="modal-footer mx-auto">
                   <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
-                    <a target="_blank" href="https://benevolent-fairy-63d677.netlify.app"><i
+                    <a target="_blank" :href="modal.netlify"><i
                         class="bi bi-globe text-light"></i></a>
                   </button>
                   <button type="button" class="btn btn-danger"><a target="_blank"
-                      href="https://github.com/MikhailThomas/Rainbow"><i
+                      :href="modal.github"><i
                         class="bi bi-github text-light"></i></a></button>
                 </div>
               </div>
             </div>
+          </div>
 </div>
-<!-- /modal 1/ -->
-<!-- modal 2 -->
-<div id="modal2" class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-              <div class="modal-content ">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Project 2</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <img class="img-fluid" src="../assets/logo.png" />
-                      </div>
-                      <div class="col-md-6">
-                        <h1>Rainbow</h1>
-                        <p>
-                          This is a rainbow that I created using HTML and CSS during the first few weeks of the coding programme.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="modal-footer mx-auto">
-                  <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
-                    <a target="_blank" href="https://benevolent-fairy-63d677.netlify.app"><i
-                        class="bi bi-globe text-light"></i></a>
-                  </button>
-                  <button type="button" class="btn btn-danger"><a target="_blank"
-                      href="https://github.com/MikhailThomas/Rainbow"><i
-                        class="bi bi-github text-light"></i></a></button>
-                </div>
-              </div>
-            </div>
-</div>
-<!-- /modal 2/ -->
-<!-- modal 3 -->
-<div id="modal3" class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-              <div class="modal-content ">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Project 3</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <img class="img-fluid" src="../assets/logo.png" />
-                      </div>
-                      <div class="col-md-6">
-                        <h1>To-Do List</h1>
-                        <p>
-                          This is a To-Do List i created using HTML JavaScript and CSS practicing functionality.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="modal-footer mx-auto">
-                  <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
-                    <a target="_blank" href="https://rad-tanuki-5a3ade.netlify.app"><i
-                        class="bi bi-globe text-light"></i></a>
-                  </button>
-                  <button type="button" class="btn btn-danger"><a target="_blank"
-                      href="https://github.com/MikhailThomas/to_do_list.git"><i
-                        class="bi bi-github text-light"></i></a></button>
-                </div>
-              </div>
-            </div>
-</div>
-<!-- /modal 3/ -->
-<!-- modal 4 -->
-<div id="modal4" class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-              <div class="modal-content ">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Project 4</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <img class="img-fluid" src="../assets/logo.png" />
-                      </div>
-                      <div class="col-md-6">
-                        <h1>Holiday Destination</h1>
-                        <p>
-                          This is my personal top 5 reasond i would like to travel to the Bahamas HTML.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="modal-footer mx-auto">
-                  <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
-                    <a target="_blank" href="https://wondrous-khapse-1360d1.netlify.app"><i
-                        class="bi bi-globe text-light"></i></a>
-                  </button>
-                  <button type="button" class="btn btn-danger"><a target="_blank"
-                      href="https://github.com/MikhailThomas/holiday_destination.git"><i
-                        class="bi bi-github text-light"></i></a></button>
-                </div>
-              </div>
-            </div>
-</div>
-<!-- /modal 4/ -->
-<!-- modal 5 -->
-<div id="modal5" class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-              <div class="modal-content ">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Project 5</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <img class="img-fluid" src="../assets/logo.png" />
-                      </div>
-                      <div class="col-md-6">
-                        <h1>Calculator</h1>
-                        <p>
-                          This is a Calculator that I created using HTML and CSS and JavaScript.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="modal-footer mx-auto">
-                  <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
-                    <a target="_blank" href="https://voluble-trifle-6199ab.netlify.app"><i
-                        class="bi bi-globe text-light"></i></a>
-                  </button>
-                  <button type="button" class="btn btn-danger"><a target="_blank"
-                      href="https://github.com/MikhailThomas/calculator.git"><i
-                        class="bi bi-github text-light"></i></a></button>
-                </div>
-              </div>
-            </div>
-</div>
-<!-- /modal 5/ -->
-<!-- modal 6 -->
-<div id="modal6" class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-              <div class="modal-content ">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Project 6</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <img class="img-fluid" src="../assets/logo.png" />
-                      </div>
-                      <div class="col-md-6">
-                        <h1>Location Location Location</h1>
-                        <p>
-                          This is a Real Estate estate website used to sell properties and it has an admin page used to edit delete and add functions. I made this using HTML, CSS and JavaScript.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="modal-footer mx-auto">
-                  <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
-                    <a target="_blank" href="https://comforting-semifreddo-f02e99.netlify.app"><i
-                        class="bi bi-globe text-light"></i></a>
-                  </button>
-                  <button type="button" class="btn btn-danger"><a target="_blank"
-                      href="https://github.com/MikhailThomas/EOM_real_estate.git"><i
-                        class="bi bi-github text-light"></i></a></button>
-                </div>
-              </div>
-            </div>
-</div>
-<!-- /modal 6/ -->
-<!-- modal 7 -->
-<div id="modal7" class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-              <div class="modal-content ">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Project 7</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <img class="img-fluid" src="../assets/logo.png" />
-                      </div>
-                      <div class="col-md-6">
-                        <h1>Portfolio</h1>
-                        <p>
-                          This is the very first portfolio i made when i was fresh to HTML and CSS and i am extremely proud of my work.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="modal-footer mx-auto">
-                  <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
-                    <a target="_blank" href="https://deluxe-marshmallow-464bc5.netlify.app"><i
-                        class="bi bi-globe text-light"></i></a>
-                  </button>
-                  <button type="button" class="btn btn-danger"><a target="_blank"
-                      href="https://github.com/MikhailThomas/EOM_Portfolio.git"><i
-                        class="bi bi-github text-light"></i></a></button>
-                </div>
-              </div>
-            </div>
-</div>
-<!-- /modal 7/ -->
-<!-- modal 8 -->
-<div id="modal8" class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-              <div class="modal-content ">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Project 8</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <img class="img-fluid" src="../assets/logo.png" />
-                      </div>
-                      <div class="col-md-6">
-                        <h1>Temperature Converter</h1>
-                        <p>
-                          This temperature converter i made using mostly JavaScript with only a handfull of HTML and CSS
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="modal-footer mx-auto">
-                  <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
-                    <a target="_blank" href="https://mellifluous-youtiao-ee4cd6.netlify.app"><i
-                        class="bi bi-globe text-light"></i></a>
-                  </button>
-                  <button type="button" class="btn btn-danger"><a target="_blank"
-                      href="https://github.com/MikhailThomas/temperature_converter.git"><i
-                        class="bi bi-github text-light"></i></a></button>
-                </div>
-              </div>
-            </div>
-</div>
-<!-- /modal /8 -->
-<!-- modal 9 -->
-<div id="modal9" class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-              <div class="modal-content ">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Project 9</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <img class="img-fluid" src="../assets/logo.png" />
-                      </div>
-                      <div class="col-md-6">
-                        <h1>Daggerfall</h1>
-                        <p>
-                          This is a site that I created using HTML and CSS.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="modal-footer mx-auto">
-                  <button type="button" class="btn btn-warning" data-bs-dismiss="modal">
-                    <a target="_blank" href=""><i
-                        class="bi bi-globe text-light"></i></a>
-                  </button>
-                  <button type="button" class="btn btn-danger"><a target="_blank"
-                      href="https://github.com/MikhailThomas/daggerfall.git"><i
-                        class="bi bi-github text-light"></i></a></button>
-                </div>
-              </div>
-            </div>
-</div>
-<!-- /modal 9/ -->
 </template>
 <script>
 export default {
@@ -388,8 +64,9 @@ h1, h2, h3, h4, h5, h6{
 
 img{
   transition: 0.5s;
-  max-width: 300px;
-  max-height: 300px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 img:hover{
     transform:scale(1.2);

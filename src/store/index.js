@@ -106,6 +106,35 @@ export default createStore({
             value: 0,
         },
     ],
+    Projects:[
+        {
+
+        },
+        {
+            
+        },
+        {
+            
+        },
+        {
+            
+        },
+        {
+            
+        },
+        {
+            
+        },
+        {
+            
+        },
+        {
+            
+        },
+        {
+            
+        }
+    ],
     Education:[
         {
             name: 'PLUMSTEAD HIGH SCHOOL',
@@ -210,8 +239,92 @@ export default createStore({
             link:'https://i.postimg.cc/DfdsymVL/Ari-Store.png',
             extra:'Ariana Grande paraphernalia store',
             target:'#modal1',
-
+            projnumb:'Project 1',
+            para:'Just like magic is a store we created in a team of 4. this was our first group project using vue.',
+            github:'https://github.com/MikhailThomas/Rainbow',
+            netlify:'https://benevolent-fairy-63d677.netlify.app',
         },
+        {
+            name:'Rainbow...',
+            link:'https://i.postimg.cc/8zdm2wpQ/Rainbow.png',
+            extra:'...mostly using CSS',
+            target:'#modal2',
+            projnumb:'Project 2',
+            para:'This is a rainbow that I created using HTML and CSS during the first few weeks of the coding programme.',
+            github:'https://github.com/MikhailThomas/Rainbow',
+            netlify:'https://benevolent-fairy-63d677.netlify.app',
+        },
+        {
+            name:'To-Do List...',
+            link:'https://i.postimg.cc/wM3WHNW5/ToDoList.png',
+            extra:'Using Javascript',
+            target:'#modal3',
+            projnumb:'Project 3',
+            para:'This is a To-Do List i created using HTML JavaScript and CSS practicing functionality.',
+            github:'https://github.com/MikhailThomas/to_do_list.git',
+            netlify:'https://rad-tanuki-5a3ade.netlify.app',
+        },
+        {
+            name:'Holiday Destination...',
+            link:'https://i.postimg.cc/k4LjJ4Lk/Bahamas.png',
+            extra:'Using only html and css',
+            target:'#modal4',
+            projnumb:'Project 4',
+            para:'This is my personal top 5 reasond i would like to travel to the Bahamas HTML.',
+            github:'https://github.com/MikhailThomas/holiday_destination.gi',
+            netlify:'https://wondrous-khapse-1360d1.netlify.app',
+        },
+        {
+            name:'Calculator...',
+            link:'https://i.postimg.cc/XY9sV4gP/Calculator.png',
+            extra:'...My first time using JavaScript',
+            target:'#modal5',
+            projnumb:'Project 5',
+            para:'This is a Calculator that I created using HTML and CSS and JavaScript.',
+            github:'https://github.com/MikhailThomas/calculator.git',
+            netlify:'https://voluble-trifle-6199ab.netlify.app',
+        },
+        {
+            name:'Real Estate...',
+            link:'https://i.postimg.cc/6Qv4spL7/Location3.png',
+            extra:'real estate website using vue',
+            target:'#modal6',
+            projnumb:'Project 6',
+            para:'This is a Real Estate estate website used to sell properties and it has an admin page used to edit delete and add functions. I made this using HTML, CSS and JavaScript.',
+            github:'https://github.com/MikhailThomas/EOM_real_estate.git',
+            netlify:'https://comforting-semifreddo-f02e99.netlify.app',
+        },
+        {
+            name:'Portfolio...',
+            link:'https://i.postimg.cc/rmWSHf60/Portfolio.png',
+            extra:'...My very first portfolio usinng HTML and CSS only',
+            target:'#modal7',
+            projnumb:'Project 7',
+            para:'This is the very first portfolio i made when i was fresh to HTML and CSS and i am extremely proud of my work.',
+            github:'https://github.com/MikhailThomas/EOM_Portfolio.git',
+            netlify:'https://deluxe-marshmallow-464bc5.netlify.app',
+        },
+        {
+            name:'Temperature Converter...',
+            link:'https://i.postimg.cc/G3S7KM2X/Temp-Converter.png',
+            extra:'converter using javascript',
+            target:'#modal8',
+            projnumb:'Project 8',
+            para:'This temperature converter i made using mostly JavaScript with only a handfull of HTML and CSS.',
+            github:'https://github.com/MikhailThomas/temperature_converter.git',
+            netlify:'https://mellifluous-youtiao-ee4cd6.netlify.app',
+        },
+        {
+            name:'Daggerfall...',
+            link:'',
+            extra:'THE END',
+            target:'#modal9',
+            projnumb:'Project 9',
+            para:'This is a site that I created using HTML and CSS.',
+            github:'https://github.com/MikhailThomas/daggerfall.git',
+            netlify:'',
+        },
+
     ]
     },
     getters: {},
