@@ -6,21 +6,24 @@
       <img id="nav-button" class="" src="../assets/navbar-button.jpg" alt="">
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul class="navbar-nav me-auto mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="/"><h2>HOME</h2></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/about"><h2>ABOUT</h2></a>
+          <a class="nav-link" href="#about"><h2>ABOUT</h2></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/projects"><h2>PROJECTS</h2></a>
+          <a class="nav-link" href="#testimonials"><h2>TESTIMONIALS</h2></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/resume"><h2>RESUME</h2></a>
+          <a class="nav-link" href="#projects"><h2>PROJECTS</h2></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/contact"><h2>CONTACT</h2></a>
+          <a class="nav-link" href="#resume"><h2>RESUME</h2></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact"><h2>CONTACT</h2></a>
         </li>
       </ul>
     </div>
@@ -38,7 +41,11 @@ h1, h2, h3, h4, h5, h6{
   font-family: 'Bebas Neue', cursive;
   color: black;
   text-decoration: underline;
-  text-decoration-color: rgb(43, 101, 168);
+  text-decoration-color:black;
+}
+a{
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 a :hover{
   background-color: rgb(43, 101, 168);
@@ -47,18 +54,20 @@ a :hover{
   border-radius: 8px;
 }
 #navbar{
-   background-color: gold;
-   border-bottom: solid whitesmoke;
+   background-color: #f7d413;
+   border-bottom: solid black;
 }
 #logo{
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
 }
 #nav-button{
     height: 80px;
     width: 80px;
    animation: shake .5s linear infinite;
 }
+
+
 @keyframes shake {
   0%{
     transform: rotateZ(10deg);

@@ -13,8 +13,9 @@ export default{
     footer{
         max-height: 4rem;
         width: 100vw;
-        background-color: gold;
+        background-color: #f7d413;
         position: absolute;
-        border-top: solid whitesmoke;
+        border-top: solid black;
+        color: black;
     }
 </style>
