@@ -23,6 +23,11 @@ const routes = [
     path: '/contact',
     name: 'contact',
     component: () => import('../views/contact.vue') 
+  },
+  {
+    path: '/modalTest',
+    name: 'modalTest',
+    component: () => import('../views/modalTest.vue') 
   }
 ]
 

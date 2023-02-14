@@ -68,17 +68,13 @@ h1{
   text-shadow: var(--header-text-shadow);
 }
 
-  .container{
-    clip-path: polygon(30% 20%, 70% 20%, 100% 30%, 100% 70%, 70% 80%, 30% 80%, 0% 70%, 0% 30%);
-  }
-  
-  #header{
+#header{
     color: rgb(255, 255, 255);
     font-size: 7rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
-  }
-  .form-box{
+}
+.form-box{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -126,5 +122,18 @@ h1{
   button:hover{
       background-color: white;
       color: black;
+  }
+  @media only screen and (max-width:500px) {
+  
+      #header {
+          font-size: clamp(2.25rem, 10vw, 7.5rem);
+          font-size: 3rem;
+      }
+      #contact{
+        border: 8px dashed black;
+        padding: 1rem;
+        width: 100%;
+        background: linear-gradient(rgba(0, 0, 0, 0.433), rgba(0, 0, 0, 0.404)),url(https://i.postimg.cc/Vkc2XVLn/pexels-erik-mclean-7524996.jpg);
+    }
   }
   </style>

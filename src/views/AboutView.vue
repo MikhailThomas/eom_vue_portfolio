@@ -1,5 +1,4 @@
 <template>
-<!-- laptop section -->
 <Aboutme/>
 
 </template>

@@ -97,8 +97,8 @@ h1{
   letter-spacing: -0.005em;
   text-shadow: var(--header-text-shadow);
 }
-    
-    h3{
+
+h3{
       font-family: 'Bebas Neue', cursive;
       font-weight: 600;
       color: gold;
@@ -286,4 +286,13 @@ h1{
       background-color: red;
     }
     
+        @media only screen and (max-width:500px) {
+            h1 {
+                font-size: clamp(2.25rem, 10vw, 7.5rem);
+            }
+            #info img{
+      height: 10rem;
+      width: 10rem;
+    }
+        }
     </style>
